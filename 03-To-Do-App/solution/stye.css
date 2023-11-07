@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/coffee_notebook_wooden_background_orange_work_table_office-642067.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background-color: rgb(121, 209, 121);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+ul {
+    /* Liste işaretlerini kaldır */
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    /* Öğeler arasında boşluk bırak */
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: solid 2px rgba(0, 0, 0, 0.815);
+    border-radius: 4px;
+    /* Fare imlecini değiştir */
+    cursor: pointer;
+}
+
+button.deleteButton:hover {
+    background-color: #e60000;
+    transition: background-color 0.3s; /* renk geçişi */
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+span {
+    flex: 1;
+    padding-left: 10px;
+}
+
+
+li {
+    margin: 10px 0;
+    transition: background-color 0.5s; /* Arka plan rengindeki değişiklikler için 0.5 saniyelik bir geçiş süresi ekleniyor */
+    border-radius: 10px;
+}
+
+
+
+
+
